@@ -1,0 +1,11 @@
+IO.puts "----This is a simple script that will generate a story by taking user input----"
+
+user_name = IO.gets "Please enter your name: "
+age = IO.gets "Please enter your age: "
+employeed_status = IO.gets "Are you employed?: "
+company = ""
+# if employeed_status = 'yes' do
+#   company = IO.gets "Please enter your company name: "
+# end
+
+IO.puts "Hey #{String.trim user_name}, you are #{String.trim age} years old. You work great at #{String.trim company}"
